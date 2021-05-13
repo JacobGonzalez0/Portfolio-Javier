@@ -1,0 +1,78 @@
+.bg-main{
+    background-image:
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.261) 60%, #78c7d377 80%, #78c7d3 100%),
+    url('img/i6yuRI3.jpg');
+    background-size: cover;
+    height:600px
+}
+
+.bg-navbar{
+    position:fixed;
+    width:100%;
+    background-color: #000000bd;
+}
+
+#about{
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+    overflow-y: hidden;
+    background: linear-gradient(to bottom, #78c7d3 70%, #dafbff 100%)
+}
+
+.about-text{
+    max-width:800px;
+}
+
+.about-image{
+    width:300px;
+    margin:-150px;
+    top:6em;
+    position: relative;
+    filter: opacity(.7)
+}
+
+#projects .row:nth-child(even){
+    background: #4b4b4b;
+    color:white
+
+}
+
+.btn-primary{
+    background-color: #78c7d3;
+    border-color: #206e7a;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #2f737e;
+    border-color: #206e7a;
+}
+
+.display-1{
+    text-shadow: 4px 2px #1b849487;
+}
+
+
+#projects .row:nth-child(even) i{
+    color:white;
+}
+
+.underline{
+    background-color: #78c7d3;
+    width:5em;
+    height: .1em;
+}
+
+.logo-text-1{
+    color: #78c7d3
+}
+
+.logo-text-0{
+    color:white
+}
+
+.contact-box{
+    width:300px;
+}
+
+
